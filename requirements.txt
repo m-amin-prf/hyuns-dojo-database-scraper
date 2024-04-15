@@ -1,0 +1,8 @@
+beautifulsoup4==4.12.3
+bs4==0.0.2
+chardet==5.2.0
+mysql-connector-python==8.3.0
+pycurl==7.45.3
+pycurl-requests==0.5.0
+python-dotenv==1.0.1
+soupsieve==2.5
