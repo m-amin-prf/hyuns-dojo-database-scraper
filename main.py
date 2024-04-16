@@ -27,8 +27,9 @@ def scrape_and_save():
 
 
 def run_indefinitely():
-    scrape_and_save()
-    time.sleep(60*15)
+    while True:
+        scrape_and_save()
+        time.sleep(60*15)
 
 
 if __name__ == '__main__':
