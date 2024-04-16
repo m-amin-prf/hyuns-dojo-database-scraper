@@ -26,7 +26,14 @@ def scrape_and_save():
     update_time()
 
 
-# Run indefinitely
-while True:
+def run_indefinitely():
     scrape_and_save()
     time.sleep(60*15)
+
+
+if __name__ == '__main__':
+    # Default behavior is to run indefinitely.
+    run_indefinitely()
+
+    # For testing purposes.
+    # scrape_and_save()
