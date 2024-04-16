@@ -17,7 +17,7 @@ def save(result: list):
     cursor.executescript(
         "DROP TABLE IF EXISTS dojo_links_temp;\n"
         "CREATE TABLE dojo_links_temp (\n"
-        "  id         INTEGER,\n"
+        "  id         INTEGER PRIMARY KEY,\n"
         "  link       TEXT,\n"
         "  forum      TEXT,\n"
         "  forum_id   INTEGER,\n"
